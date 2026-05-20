@@ -42,16 +42,12 @@ export default function Footer() {
 
           {/* Right */}
           <div className={styles.right}>
-            <a href="#" className={styles.social}>
+            <a href="https://github.com/JASONGODS" target="_blank" rel="noopener" className={styles.social}>
               GitHub
             </a>
 
-            <a href="#" className={styles.social}>
+            <a href="https://www.linkedin.com/in/jason-gods-500745389/" target="_blank" rel="noopener" className={styles.social}>
               LinkedIn
-            </a>
-
-            <a href="#" className={styles.social}>
-              Instagram
             </a>
           </div>
         </div>

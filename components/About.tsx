@@ -3,9 +3,9 @@ import { useEffect, useRef } from "react";
 import styles from "./About.module.css";
 
 const stats = [
-  { value: "5+", label: "Projects Built" },
+  { value: "2+", label: "Projects Built" },
   { value: "3+", label: "Technologies" },
-  { value: "2024", label: "Graduate Year" },
+  { value: "2026", label: "Graduate Year" },
   { value: "∞", label: "Willingness to Learn" },
 ];
 

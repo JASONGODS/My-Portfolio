@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import styles from "./Navbar.module.css";
 
 const links = [
+  { href: "#home", label: "Home"},
   { href: "#about", label: "About" },
   { href: "#skills", label: "Skills" },
   { href: "#projects", label: "Projects" },
@@ -25,7 +26,7 @@ export default function Navbar() {
         {/* Logo */}
         <a href="#" className={styles.logo}>
           <span className={styles.logoAngle}>&lt;</span>
-          JS
+          PORTFOLIO
           <span className={styles.logoAngle}>/&gt;</span>
         </a>
 
